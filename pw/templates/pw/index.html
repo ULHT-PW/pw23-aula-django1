@@ -1,0 +1,23 @@
+{% extends "pw/layout.html" %}
+
+{% block main %}
+
+    {% if hora < 12 %}
+      <p>Bom dia!</p>
+    {% else %}
+      <p>Boa tarde!</p>
+    {% endif %}
+ 
+<p>Aplicações web em Django</p>  
+
+<p>Linguagens</p>
+<ul>
+    {% for linguagem in linguagens %}
+      <li> {{ linguagem }} </li>
+    {% endfor %}
+</ul>
+
+{% load static %}
+<img src="{% static 'pw/pw.png' %}" alt="">
+
+{% endblock main %}

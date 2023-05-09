@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW</title>
+    <style>
+
+        body {
+            background-color: khaki;;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Programação Web</h1>
+
+        <a href="{% url 'pw:index' %}">Index</a>
+        <a href="{% url 'pw:about' %}">About</a>
+
+    </header>
+    <main>
+       
+        {% block main %}
+          
+        {% endblock main %}
+
+    </main>
+
+    <footer>
+        <p>Universidade Lusófona, {{ ano }} </p>
+    </footer>
+</body>
+
+</html>
