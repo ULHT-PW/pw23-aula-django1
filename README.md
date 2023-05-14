@@ -5,9 +5,7 @@
 1. Abra a linha de comandos (PowerShell ou cmd)
 1. Descarregue este repositório com o comando `git clone https://github.com/ULHT-PW-2020-21/pw-django-01` 
 1. Entre na pasta  `cd pw-django-01`
-1. Instale o pipenv no seu computador [[1](https://www.pythontutorial.net/python-basics/install-pipenv-windows/)], caso ainda não esteja instalado, para criar um ambiente virtual `python -m pip install pipenv`
-1. Active o ambiente virtual `pipenv shell`
-1. Instale os modulos existentes no ambiente virtual (no ficheiro Pipfile) com o comando  `pipenv install`
+1. Se não tiver, instale o django `python -m pip install django`
 1. Lance a aplicação no browser com o comando `python manage.py runserver`. 
 1. Tem disponíveis as aplicações hello no link `http://127.0.0.1:8000/hello/` e pw no link `http://127.0.0.1:8000/pw/` 
 1. abra a pasta com o VSCode, para a explorar, ou com o comando `code .`
