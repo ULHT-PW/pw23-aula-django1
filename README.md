@@ -1,5 +1,5 @@
 # Aula #1 de Django
-* Web app criada na aula de 8.5.2022 de Programação Web
+Web app criada na aula de 8.5.2022 de Programação Web
 
 ### Passos para lançar e editar a aplicação
 1. Abra a linha de comandos (PowerShell ou cmd)
